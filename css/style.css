@@ -1,0 +1,235 @@
+/*body {
+  margin: 0;
+}
+header {
+  background-color: #373738;
+  padding: 15px;
+}
+header ul {
+  float: right;
+  color: white;
+}
+header li {
+  display: inline-block;
+  padding: 0px 5px;
+}
+header p {
+  display: inline-block;
+}
+.heroImg {
+  background-color: #EBEBEB;
+  padding: 100px 15px;
+}
+.content {
+  max-width: 300px;
+  margin: 0 auto;
+  padding: 50px;
+  background-color: #FFFFFF;
+  text-align: center;
+}
+button {
+  padding: 15px;
+  background-color: #373738;
+  color: white;
+  font-size: 15px;
+  border-radius: 4px;
+}
+footer {
+  background-color: #373738;
+  padding: 5px;
+  color: white;
+}
+footer ul {
+  list-style: none;
+  padding-left: 5px;
+}
+footer li {
+  display: inline-block;
+  padding: 0px 7px;
+}
+.heading {
+  text-align: center;
+  padding: 15px 5px;
+  font-size: 30px;
+}
+
+.flexContainer {
+  display: flex;
+  padding: 60px 30px;
+}
+.flexContainer div {
+  width: 33%;
+  padding: 25px;
+}
+
+
+.myWork {
+  padding: 60px 30px;
+  padding-top: 0;
+  background-color: #EBEBEB;
+}
+.workGrid {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 350px 350px 350px;
+  grid-template-areas:
+  "img1 content1"
+  "img2 content2"
+  "img3 content3"
+  ;
+}
+.workGrid img {
+  width: 100%;
+  max-width: 250px;
+  margin: 0 auto;
+  display: block;
+}
+.img1 {
+  grid-area: img1;
+}
+.img2 {
+  grid-area: img2;
+}
+.img3 {
+  grid-area: img3;
+}
+.img1, .img2, .img3, .content1, .content2, .content3 {
+  padding: 80px;
+}
+.content1 {
+  grid-area: content1;
+}
+.content2 {
+  grid-area: content2;
+}
+.content3 {
+  grid-area: content3;
+}
+*/
+
+
+
+
+
+.header {
+  display: inline-block;
+  vertical-align: top;
+  width: 23%;
+  padding: 1%;
+  text-align: center;
+}
+
+body {
+  background-color: #132032;
+  background-image: url("/images/river bridge.jpg");
+  background-size: cover;
+  color: #fff;
+  font-size: 20px;
+  font-family: Verdana, sans-serif;
+}
+
+.mainContainer {
+  max-width: 1200px;
+  margin:auto;
+}
+
+
+nav {
+  padding: 0px 20px;
+  justify-content: space-between;
+  align-items: center;
+  display:flex;
+  background:black;
+}
+nav p {
+  color: white;
+}
+
+.logo img {
+  height: auto;
+}
+
+
+footer {
+  justify-content: space-between;
+  padding: 20px;
+  align-items: center;
+  display:flex;
+}
+
+footer p {
+  font-size: 20px;
+  color: white;
+}
+.navigationLinks {
+display: flex;
+justify-content: space-between;
+}
+
+.navigationLinks p {
+  margin-right: 10px;
+}
+
+.logo {
+  padding-right: 20px;
+  display:flex;
+  height: 40px;
+}
+
+.logo h1 {
+  margin:0 0 0 22px;
+}
+
+ul {
+  padding:0;
+  margin:0 0 0 150px;
+  list-style:none;
+}
+li{
+  float:left;
+}
+
+.navigation {
+  width: 73%;
+  overflow: hidden;
+  height: 70px;
+  line-height: 70px;
+  background: #333;
+  padding: 1%;
+}
+
+ul {
+  width: 50%;
+  margin-left: auto;
+  font-size: medium;
+}
+
+.imageborder img {
+  width:100%;
+  max-width: 300px;
+}
+
+.imageborder {
+  text-align:center;
+}
+
+.biography {
+  padding: 20px;
+  width: 626px;
+  margin: 0 auto 20px auto;
+}
+
+.title {
+  font-family: 'Playfair Display', serif;
+  border-bottom:thin green solid;
+  padding-bottom: 5px;
+}
+
+.content {
+  display:flex;
+  justify-content: space-around;
+}
+
+.downloadButton {
+  text-align: center;
+}
